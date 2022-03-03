@@ -18,8 +18,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         Context context = getApplicationContext();
         try {
-
-            System.out.println(Network.searchTask("преступление и наказание").get());
+            BookData book = new BookData(435116, "Преступление и наказание, Часть 1", "Автор", new ArrayList<String>());
+            System.out.println(Network.downloadTask(book, context));
         } catch (IOException | InterruptedException | ExecutionException e) {
             e.printStackTrace();
         }

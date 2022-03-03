@@ -36,7 +36,7 @@ import java.util.concurrent.FutureTask;
 
 public class Network{
     static private final String siteURL = "https://flibusta.is/";
-    static private final String bookList = "https://flibusta.is/makebooklist";
+    static private final String bookList = "https://flibusta.is/makebooklist"; //DON'T USE??
     static private final String proxyHost = "proxy-nossl.antizapret.prostovpn.org";
     static private final int proxyPort = 29976;
 
@@ -131,18 +131,15 @@ public class Network{
 
     static public FutureTask downloadTask(BookData book, Context context) throws IOException, ExecutionException, InterruptedException {
         Callable task = () -> {
-            //doc = Jsoup.connect(bookList).proxy(proxyHost, proxyPort).get();
-
             InetSocketAddress sa = new InetSocketAddress(proxyHost, proxyPort);
             Proxy proxy = new Proxy(Proxy.Type.HTTP, sa);
-            //Proxy.Type.DIRECT
             HttpURLConnection.setFollowRedirects(true);
             HttpURLConnection connection = (HttpURLConnection)new URL(siteURL+"/b/"+435116+"/fb2").openConnection(proxy);
             while (connection.getResponseCode() == 302) {
                 connection = (HttpURLConnection)new URL(connection.getHeaderField("Location")).openConnection(proxy);
             }
             InputStream in = connection.getInputStream();
-            return Storage.write(in, "txt", context);
+            return Storage.write(in, book, context);
         };
         FutureTask<String> future = new FutureTask<>(task);
         new Thread(future).start();

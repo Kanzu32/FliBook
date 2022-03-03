@@ -4,42 +4,70 @@ import android.content.Context;
 import android.os.Environment;
 
 import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
+import java.io.IOException;
 import java.io.InputStream;
+import java.util.ArrayList;
+import java.util.zip.ZipEntry;
+import java.util.zip.ZipInputStream;
 
-// TODO write[.] getList[-] getBook[-] unzip[-]
+// TODO write[+] getList[-] getBook[-]
 
 public class Storage {
-    static public Boolean write(InputStream data, String fileType, Context context) {
+    static public Boolean write(InputStream data, BookData book, Context context) throws IOException {
         if (!Environment.getExternalStorageState().equals(Environment.MEDIA_MOUNTED)) {
             System.out.println("Хранилище недоступно!!!");
             return false;
         }
 
-        File file = new File(context.getExternalFilesDir("books"), "filenameExternal123.zip");
-        if (!file.exists()) {
-            file.getParentFile().mkdirs();
+        File zipFile = new File(context.getExternalFilesDir("books"), "temp.zip");
+        if (!zipFile.exists()) {
+            zipFile.getParentFile().mkdirs();
         }
         FileOutputStream outputStream = null;
         try {
-            file.createNewFile();
-            outputStream = new FileOutputStream(file, true);
+            zipFile.createNewFile();
+            outputStream = new FileOutputStream(zipFile, false);
             int c;
             while ((c = data.read()) != -1) {
-                System.out.println(c);
                 outputStream.write(c);
             }
-
             outputStream.flush();
             outputStream.close();
         } catch (Exception e) {
             e.printStackTrace();
             return false;
         }
+
+        ZipInputStream zipInput = new ZipInputStream(new FileInputStream(zipFile));
+        ZipEntry zipEntry = zipInput.getNextEntry();
+        while (zipEntry != null) {
+            File file = new File(context.getExternalFilesDir("books"), book.name + ".fb2");
+            if (!file.exists()) {
+                file.getParentFile().mkdirs();
+            }
+            try {
+                file.createNewFile();
+                outputStream = new FileOutputStream(file, false);
+                int len;
+                byte[] buffer = new byte[1024];
+                while ((len = zipInput.read(buffer)) > 0) {
+                    outputStream.write(buffer, 0, len);
+                }
+                outputStream.flush();
+                outputStream.close();
+            } catch (Exception e) {
+                e.printStackTrace();
+                return false;
+            }
+            zipEntry = zipInput.getNextEntry();
+        }
+        zipInput.close();
+        zipFile.delete();
+
         return true;
     }
 
-    static public File unzip(File file, Context context) {
-        return file;
-    }
 }

@@ -32,7 +32,7 @@ public class BookData {
     public String toString () {
         String res = "Book name: " + name + " ID: " + id + " Author: " + author;
         if (genres.size() > 0) {
-            res += "Genres: ";
+            res += " Genres: ";
             res += TextUtils.join(", ", genres);
         }
         if (description.length() > 0) { res += " Has description"; }
