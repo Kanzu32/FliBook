@@ -3,6 +3,7 @@ package com.kanzu.flibook;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
 
 import java.io.IOException;
@@ -16,12 +17,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Context context = getApplicationContext();
-        try {
-            BookData book = new BookData(435116, "Преступление и наказание, Часть 1", "Автор", new ArrayList<String>());
-            System.out.println(Network.downloadTask(book, context));
-        } catch (IOException | InterruptedException | ExecutionException e) {
-            e.printStackTrace();
-        }
+        Intent intent = new Intent(MainActivity.this, searchActivity.class);
+        startActivity(intent);
     }
 }
