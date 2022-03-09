@@ -8,20 +8,20 @@ import androidx.core.text.TextUtilsCompat;
 import java.util.ArrayList;
 
 public class BookData {
-    String name, description = "", author, storageLink;
+    String name, description = "", author, storageLink, genres;
     boolean hasCover;
     Bitmap img;
     int id;
-    ArrayList<String> downloadTypes, genres;
+    ArrayList<String> downloadTypes;
 
-    BookData (int id, String name, String author, ArrayList<String> genres) {
+    BookData (int id, String name, String author, String genres) {
         this.name = name;
         this.id = id;
         this.genres = genres;
         this.author = author;
     }
 
-    BookData (int id, String name, String author, ArrayList<String> genres, ArrayList<String> downloadTypes, String description, boolean hasCover, Bitmap img) {
+    BookData (int id, String name, String author, String genres, ArrayList<String> downloadTypes, String description, boolean hasCover, Bitmap img) {
         this(id, name, author, genres);
         this.description = description;
         this.hasCover = hasCover;
@@ -30,11 +30,7 @@ public class BookData {
 
     @Override
     public String toString () {
-        String res = "Book name: " + name + " ID: " + id + " Author: " + author;
-        if (genres.size() > 0) {
-            res += " Genres: ";
-            res += TextUtils.join(", ", genres);
-        }
+        String res = "Book name: " + name + " ID: " + id + " Author: " + author + " Genres: " + genres;
         if (description.length() > 0) { res += " Has description"; }
         if (hasCover) res += " Has cover";
 

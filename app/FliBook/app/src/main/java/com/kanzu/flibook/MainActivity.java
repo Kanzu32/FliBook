@@ -17,7 +17,14 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Intent intent = new Intent(MainActivity.this, searchActivity.class);
-        startActivity(intent);
+        //Intent intent = new Intent(MainActivity.this, searchActivity.class);
+        //startActivity(intent);
+
+        BookData book = new BookData(629033, "133", "автор", "55");
+        try {
+            Network.downloadTask(book, this, "fb2").get();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
     }
 }

@@ -30,6 +30,7 @@ import java.net.URL;
 import java.net.URLConnection;
 import java.nio.file.Files;
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.concurrent.Callable;
 import java.util.concurrent.ExecutionException;
 import java.util.concurrent.FutureTask;
@@ -43,30 +44,58 @@ public class Network{
     static private Document doc;
     public Network() throws IOException {}
 
-    // TODO download, search[+], bookData[+], onlineRead??
+    // TODO download[+], search[+], bookData[+], onlineRead??
 
-    static public FutureTask searchTask(String name) throws IOException, ExecutionException, InterruptedException {
+    static public FutureTask getPageCountTask(String name) {
         Callable task = () -> {
-            System.setProperty("http.proxyHost", "proxy-ssl.antizapret.prostovpn.org");
-            System.setProperty("http.proxyPort", "3143");
+            int count = 0;
             ArrayList<BookData> result = new ArrayList<BookData>();
-            Connection jsoupConnection = Jsoup.connect("https://flibusta.is/makebooklist?ab=ab1&sort=rating&t=" + name)
+            Connection jsoupConnection = Jsoup.connect("https://flibusta.is/makebooklist?ab=ab1&sort=rating&t=" + name + "&page=1999")
                     .proxy(proxyHost, proxyPort)
                     .followRedirects(true);
 
             doc = jsoupConnection.get();
-            Elements items = doc.select("div");
+            Elements items = doc.select(".item-list");
+            if (items.size() == 0) {
+                count = 1;
+            } else {
+                count = Integer.parseInt(items.first().select(".pager > .last").text());
+            }
+            return count;
+        };
+        FutureTask<String> future = new FutureTask<>(task);
+        new Thread(future).start();
+        return future;
+    }
+
+    static public FutureTask searchTask(String name, int pageNumber) throws IOException, ExecutionException, InterruptedException {
+        Callable task = () -> {
+            System.setProperty("http.proxyHost", "proxy-ssl.antizapret.prostovpn.org");
+            System.setProperty("http.proxyPort", "3143");
+            ArrayList<BookData> result = new ArrayList<BookData>();
+            Connection jsoupConnection = Jsoup.connect("https://flibusta.is/makebooklist?ab=ab1&sort=rating&t=" + name + "&page=" + (pageNumber-1))
+                    .proxy(proxyHost, proxyPort)
+                    .followRedirects(true);
+
+            doc = jsoupConnection.get();
+            Elements items = doc.select("form > div");
+
+            String prevGenres = "";
 
             for (Element item : items) {
-                ArrayList<String> genres = new ArrayList<String>();
+                String genres;
                 String bookName, author = "";
                 int id;
                 // GENRES
                 try {
-                    for (Element i : item.select(".genre [name]")) {
-                        genres.add(i.text());
+                    if (item.select("div > .genre").size() == 0) {
+                        genres = prevGenres;
+                    } else {
+                        genres = item.select("div > .genre").text();
                     }
-                } catch (NullPointerException e) {genres.add("");}
+                } catch (NullPointerException e) {
+                    genres = prevGenres;
+                }
                 // NAME, AUTHOR, ID
                 Element el = item.select("div > a").get(0);
                 bookName = el.text();
@@ -74,8 +103,9 @@ public class Network{
                 for (Element i : item.select("[href^=/a/]")) {
                     author += i.text() + ", ";
                 }
-                author = author.substring(0, author.length()-2);
-                result.add(new BookData(id, name, author, genres));
+                author = author.substring(0, author.length() - 2);
+                result.add(new BookData(id, bookName, author, genres));
+                prevGenres = genres;
 
             }
             return result;
@@ -105,6 +135,9 @@ public class Network{
             if (doc.select("a:contains(fb2)").size() > 0) {
                 downloadTypes.add("fb2");
             }
+            if (doc.select("a:contains(epub)").size() > 0) {
+                downloadTypes.add("epub");
+            }
             book.downloadTypes = downloadTypes;
 
             // IMAGE
@@ -129,17 +162,18 @@ public class Network{
         return future;
     }
 
-    static public FutureTask downloadTask(BookData book, Context context) throws IOException, ExecutionException, InterruptedException {
+    static public FutureTask downloadTask(BookData book, Context context, String type) throws IOException, ExecutionException, InterruptedException {
         Callable task = () -> {
             InetSocketAddress sa = new InetSocketAddress(proxyHost, proxyPort);
             Proxy proxy = new Proxy(Proxy.Type.HTTP, sa);
             HttpURLConnection.setFollowRedirects(true);
-            HttpURLConnection connection = (HttpURLConnection)new URL(siteURL+"/b/"+435116+"/fb2").openConnection(proxy);
+            HttpURLConnection connection = (HttpURLConnection)new URL(siteURL+"/b/"+book.id+"/"+type).openConnection(proxy);
             while (connection.getResponseCode() == 302) {
                 connection = (HttpURLConnection)new URL(connection.getHeaderField("Location")).openConnection(proxy);
             }
             InputStream in = connection.getInputStream();
-            return Storage.write(in, book, context);
+            System.out.println(connection.getURL());
+            return Storage.write(in, book, type, context);
         };
         FutureTask<String> future = new FutureTask<>(task);
         new Thread(future).start();

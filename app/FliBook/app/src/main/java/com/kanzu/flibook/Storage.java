@@ -16,44 +16,23 @@ import java.util.zip.ZipInputStream;
 // TODO write[+] getList[-] getBook[-]
 
 public class Storage {
-    static public Boolean write(InputStream data, BookData book, Context context) throws IOException {
+    static public Boolean write(InputStream data, BookData book, String type, Context context) throws IOException {
         if (!Environment.getExternalStorageState().equals(Environment.MEDIA_MOUNTED)) {
             System.out.println("Хранилище недоступно!!!");
             return false;
         }
 
-        File zipFile = new File(context.getExternalFilesDir("books"), "temp.zip");
-        if (!zipFile.exists()) {
-            zipFile.getParentFile().mkdirs();
-        }
-        FileOutputStream outputStream = null;
-        try {
-            zipFile.createNewFile();
-            outputStream = new FileOutputStream(zipFile, false);
-            int c;
-            while ((c = data.read()) != -1) {
-                outputStream.write(c);
-            }
-            outputStream.flush();
-            outputStream.close();
-        } catch (Exception e) {
-            e.printStackTrace();
-            return false;
-        }
-
-        ZipInputStream zipInput = new ZipInputStream(new FileInputStream(zipFile));
-        ZipEntry zipEntry = zipInput.getNextEntry();
-        while (zipEntry != null) {
-            File file = new File(context.getExternalFilesDir("books"), book.name + ".fb2");
+        if (type == "epub") {
+            File file = new File(context.getExternalFilesDir("books"), book.name + "." + type);
             if (!file.exists()) {
                 file.getParentFile().mkdirs();
             }
             try {
                 file.createNewFile();
-                outputStream = new FileOutputStream(file, false);
+                FileOutputStream outputStream = new FileOutputStream(file, false);
                 int len;
                 byte[] buffer = new byte[1024];
-                while ((len = zipInput.read(buffer)) > 0) {
+                while ((len = data.read(buffer)) > 0) {
                     outputStream.write(buffer, 0, len);
                 }
                 outputStream.flush();
@@ -62,10 +41,55 @@ public class Storage {
                 e.printStackTrace();
                 return false;
             }
-            zipEntry = zipInput.getNextEntry();
         }
-        zipInput.close();
-        zipFile.delete();
+
+        if (type == "fb2") {
+
+            File zipFile = new File(context.getExternalFilesDir("books"), "temp.zip");
+            if (!zipFile.exists()) {
+                zipFile.getParentFile().mkdirs();
+            }
+            FileOutputStream outputStream = null;
+            try {
+                zipFile.createNewFile();
+                outputStream = new FileOutputStream(zipFile, false);
+                int c;
+                while ((c = data.read()) != -1) {
+                    outputStream.write(c);
+                }
+                outputStream.flush();
+                outputStream.close();
+            } catch (Exception e) {
+                e.printStackTrace();
+                return false;
+            }
+
+            ZipInputStream zipInput = new ZipInputStream(new FileInputStream(zipFile));
+            ZipEntry zipEntry = zipInput.getNextEntry();
+            while (zipEntry != null) {
+                File file = new File(context.getExternalFilesDir("books"), book.name + "." + type);
+                if (!file.exists()) {
+                    file.getParentFile().mkdirs();
+                }
+                try {
+                    file.createNewFile();
+                    outputStream = new FileOutputStream(file, false);
+                    int len;
+                    byte[] buffer = new byte[1024];
+                    while ((len = zipInput.read(buffer)) > 0) {
+                        outputStream.write(buffer, 0, len);
+                    }
+                    outputStream.flush();
+                    outputStream.close();
+                } catch (Exception e) {
+                    e.printStackTrace();
+                    return false;
+                }
+                zipEntry = zipInput.getNextEntry();
+            }
+            zipInput.close();
+            zipFile.delete();
+        }
 
         return true;
     }
