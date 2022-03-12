@@ -5,7 +5,11 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
+import android.os.Parcelable;
 
+import com.kursx.parser.fb2.FictionBook;
+
+import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.concurrent.ExecutionException;
@@ -17,14 +21,23 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        //Intent intent = new Intent(MainActivity.this, searchActivity.class);
-        //startActivity(intent);
-
-        BookData book = new BookData(629033, "133", "автор", "55");
+        ArrayList<BookData> books = null;
         try {
-            Network.downloadTask(book, this, "fb2").get();
+            books = (ArrayList<BookData>) Network.searchTask("Преступление и наказание", 1).get();
         } catch (Exception e) {
             e.printStackTrace();
         }
+        Intent intent = new Intent(MainActivity.this, dataActivity.class);
+        intent.putExtra(BookData.class.getSimpleName(), books.get(0));
+        startActivity(intent);
+
+
+//        try {
+//            Network.downloadTask(book, this, "fb2").get();
+//        } catch (Exception e) {
+//            e.printStackTrace();
+//        }
+
+        //Storage.scanBooksTask(this);
     }
 }

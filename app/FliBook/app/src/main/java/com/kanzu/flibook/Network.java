@@ -119,6 +119,7 @@ public class Network{
     static public FutureTask getDataTask(BookData book) throws IOException, ExecutionException, InterruptedException {
         Callable task = () -> {
             doc = Jsoup.connect(siteURL+"/b/"+book.id).proxy(proxyHost, proxyPort).get();
+            doc = Jsoup.connect(siteURL+"/b/"+book.id).proxy(proxyHost, proxyPort).get();
             Element item = doc.select("h2:contains(Аннотация) + p").first();
             String description;
             ArrayList<String> downloadTypes = new ArrayList<String>();
@@ -172,7 +173,6 @@ public class Network{
                 connection = (HttpURLConnection)new URL(connection.getHeaderField("Location")).openConnection(proxy);
             }
             InputStream in = connection.getInputStream();
-            System.out.println(connection.getURL());
             return Storage.write(in, book, type, context);
         };
         FutureTask<String> future = new FutureTask<>(task);

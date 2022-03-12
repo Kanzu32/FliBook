@@ -1,14 +1,16 @@
 package com.kanzu.flibook;
 
 import android.graphics.Bitmap;
+import android.os.Parcel;
+import android.os.Parcelable;
 import android.text.TextUtils;
 
 import androidx.core.text.TextUtilsCompat;
 
 import java.util.ArrayList;
 
-public class BookData {
-    String name, description = "", author, storageLink, genres;
+public class BookData implements Parcelable {
+    String name, description = "", author, genres;
     boolean hasCover;
     Bitmap img;
     int id;
@@ -21,7 +23,7 @@ public class BookData {
         this.author = author;
     }
 
-    BookData (int id, String name, String author, String genres, ArrayList<String> downloadTypes, String description, boolean hasCover, Bitmap img) {
+    BookData (int id, String name, String author, String genres, String description, boolean hasCover, Bitmap img) {
         this(id, name, author, genres);
         this.description = description;
         this.hasCover = hasCover;
@@ -37,4 +39,33 @@ public class BookData {
         return res;
     }
 
+    @Override
+    public int describeContents() {
+        return 0;
+    }
+
+    @Override
+    public void writeToParcel(Parcel dest, int flags) {
+        dest.writeString(name);
+        dest.writeString(author);
+        dest.writeString(genres);
+        dest.writeInt(id);
+
+    }
+
+    public static final Creator<BookData> CREATOR = new Creator<BookData>() {
+        @Override
+        public BookData createFromParcel(Parcel source) {
+            String name = source.readString();
+            String author = source.readString();
+            String genres = source.readString();
+            int id = source.readInt();
+            return new BookData(id, name, author, genres);
+        }
+
+        @Override
+        public BookData[] newArray(int size) {
+            return new BookData[size];
+        }
+    };
 }

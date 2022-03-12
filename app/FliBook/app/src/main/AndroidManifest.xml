@@ -30,6 +30,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".searchActivity"></activity>
+        <activity android:name=".dataActivity"></activity>
     </application>
 
 </manifest>

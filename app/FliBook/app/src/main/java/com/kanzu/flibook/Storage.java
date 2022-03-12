@@ -10,6 +10,7 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.zip.ZipEntry;
 import java.util.zip.ZipInputStream;
 
@@ -92,6 +93,11 @@ public class Storage {
         }
 
         return true;
+    }
+
+    static public ArrayList<File> scanBooksTask(Context context) {
+        File file = context.getExternalFilesDir("books");
+        return new ArrayList<File>(Arrays.asList(file.listFiles()));
     }
 
 }
