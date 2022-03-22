@@ -3,9 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Max/Documents/GitHub/FliBook/app/FliBook/app/src/main/res/drawable/circle_button.xml" value="0.3828125" />
         <entry key="..\:/Users/Max/Documents/GitHub/FliBook/app/FliBook/app/src/main/res/layout/activity_main.xml" value="0.2640625" />
         <entry key="..\:/Users/Max/Documents/GitHub/FliBook/app/FliBook/app/src/main/res/layout/data_activity.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Max/Documents/GitHub/FliBook/app/FliBook/app/src/main/res/layout/menu.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/Max/Documents/GitHub/FliBook/app/FliBook/app/src/main/res/layout/mylist.xml" value="0.2578125" />
+        <entry key="..\:/Users/Max/Documents/GitHub/FliBook/app/FliBook/app/src/main/res/layout/mylist2.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Max/Documents/GitHub/FliBook/app/FliBook/app/src/main/res/layout/read_activity.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/Max/Documents/GitHub/FliBook/app/FliBook/app/src/main/res/layout/search_activity.xml" value="0.36666666666666664" />
       </map>
     </option>

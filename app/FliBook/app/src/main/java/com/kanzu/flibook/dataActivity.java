@@ -35,7 +35,7 @@ public class dataActivity extends AppCompatActivity {
         if (book.hasCover) {
             img.setImageBitmap(book.img);
         } else {
-            img.setEnabled(false);
+            img.setVisibility(View.VISIBLE);
         }
     }
 
