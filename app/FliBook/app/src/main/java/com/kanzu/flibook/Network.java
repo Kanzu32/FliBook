@@ -103,7 +103,12 @@ public class Network{
                 for (Element i : item.select("[href^=/a/]")) {
                     author += i.text() + ", ";
                 }
-                author = author.substring(0, author.length() - 2);
+                if (author.length() == 0) {
+                    author = "Неизвестный автор";
+                } else {
+                    author = author.substring(0, author.length() - 2);
+                }
+
                 result.add(new BookData(id, bookName, author, genres));
                 prevGenres = genres;
 

@@ -56,6 +56,9 @@ public class searchActivity extends AppCompatActivity {
         if (pageNumber == 0) pageNumber = 1;
         if (pageNumber > pageCount) pageNumber = pageCount;
         ArrayList<BookData> res = (ArrayList<BookData>)Network.searchTask(text, pageNumber).get();
+        if (res.size() == 0) {
+            System.out.println("Ничего не найдено"); //сделать по-человечески))
+        }
         for (BookData item : res) {
             names.add(item.name);
             authors.add(item.author);
