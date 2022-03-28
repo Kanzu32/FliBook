@@ -2,8 +2,10 @@ package com.kanzu.flibook;
 
 import android.app.ListActivity;
 import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.EditText;
 import android.widget.ImageButton;
@@ -66,6 +68,17 @@ public class searchActivity extends AppCompatActivity {
         CustomListAdapter adapter = new CustomListAdapter(this, names.toArray(new String[0]), authors.toArray(new String[0]), genres.toArray(new String[0]));
         ListView list = (ListView) findViewById(R.id.list);
         list.setAdapter(adapter);
+
+        list.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+
+                Intent i = new Intent(searchActivity.this, dataActivity.class);
+                i.putExtra(BookData.class.getSimpleName(), res.get(position));
+                startActivity(i);
+            }
+        });
+
         loaded = true;
     }
 

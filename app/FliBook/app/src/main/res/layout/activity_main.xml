@@ -25,6 +25,7 @@
         android:background="@drawable/circle_button"
         android:backgroundTint="#43A047"
         android:longClickable="false"
+        android:onClick="downloadButtonClick"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:srcCompat="@drawable/download_icon"

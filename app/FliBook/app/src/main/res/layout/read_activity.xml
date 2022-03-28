@@ -8,9 +8,12 @@
     <TextView
         android:id="@+id/readField"
         android:layout_width="0dp"
-        android:layout_height="0dp"
+        android:layout_height="wrap_content"
+        android:fadeScrollbars="true"
+        android:isScrollContainer="true"
+        android:padding="10dp"
+        android:scrollbars="vertical"
         android:text="TextView"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
