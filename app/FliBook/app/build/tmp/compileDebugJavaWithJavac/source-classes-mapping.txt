@@ -1,0 +1,25 @@
+com/kanzu/flibook/BuildConfig.java
+ com.kanzu.flibook.BuildConfig
+com/kanzu/flibook/Storage.java
+ com.kanzu.flibook.Storage
+com/kanzu/flibook/MainActivity.java
+ com.kanzu.flibook.MainActivity
+ com.kanzu.flibook.MainActivity$1
+com/kanzu/flibook/CustomFileListAdapter.java
+ com.kanzu.flibook.CustomFileListAdapter
+com/kanzu/flibook/ReadActivity.java
+ com.kanzu.flibook.ReadActivity
+com/kanzu/flibook/TextContainer.java
+ com.kanzu.flibook.TextContainer
+com/kanzu/flibook/Network.java
+ com.kanzu.flibook.Network
+com/kanzu/flibook/searchActivity.java
+ com.kanzu.flibook.searchActivity
+ com.kanzu.flibook.searchActivity$1
+com/kanzu/flibook/BookData.java
+ com.kanzu.flibook.BookData
+ com.kanzu.flibook.BookData$1
+com/kanzu/flibook/dataActivity.java
+ com.kanzu.flibook.dataActivity
+com/kanzu/flibook/CustomListAdapter.java
+ com.kanzu.flibook.CustomListAdapter
