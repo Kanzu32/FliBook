@@ -7,6 +7,7 @@ import android.graphics.BitmapFactory;
 import android.os.Environment;
 import android.util.Log;
 import android.os.AsyncTask;
+import android.widget.Toast;
 
 import org.jsoup.Connection;
 import org.jsoup.Jsoup;
@@ -36,8 +37,8 @@ import java.util.concurrent.ExecutionException;
 import java.util.concurrent.FutureTask;
 
 public class Network{
-    static private final String siteURL = "https://flibusta.is/";
-    static private final String bookList = "https://flibusta.is/makebooklist"; //DON'T USE??
+    static private final String siteURL = "http://flibusta.is/";
+    static private final String bookList = "http://flibusta.is/makebooklist"; //DON'T USE??
     static private final String proxyHost = "proxy-nossl.antizapret.prostovpn.org";
     static private final int proxyPort = 29976;
 
@@ -50,7 +51,7 @@ public class Network{
         Callable task = () -> {
             int count = 0;
             ArrayList<BookData> result = new ArrayList<BookData>();
-            Connection jsoupConnection = Jsoup.connect("https://flibusta.is/makebooklist?ab=ab1&sort=rating&t=" + name + "&page=1999")
+            Connection jsoupConnection = Jsoup.connect("http://flibusta.is/makebooklist?ab=ab1&sort=rating&t=" + name + "&page=1999")
                     .proxy(proxyHost, proxyPort)
                     .followRedirects(true);
 
@@ -68,12 +69,12 @@ public class Network{
         return future;
     }
 
-    static public FutureTask searchTask(String name, int pageNumber) throws IOException, ExecutionException, InterruptedException {
-        Callable task = () -> {
+    static public FutureTask<ArrayList<BookData>> searchTask(String name, int pageNumber) throws IOException, ExecutionException, InterruptedException {
+        Callable<ArrayList<BookData>> task = () -> {
             System.setProperty("http.proxyHost", "proxy-ssl.antizapret.prostovpn.org");
             System.setProperty("http.proxyPort", "3143");
             ArrayList<BookData> result = new ArrayList<BookData>();
-            Connection jsoupConnection = Jsoup.connect("https://flibusta.is/makebooklist?ab=ab1&sort=rating&t=" + name + "&page=" + (pageNumber-1))
+            Connection jsoupConnection = Jsoup.connect("http://flibusta.is/makebooklist?ab=ab1&sort=rating&t=" + name + "&page=" + (pageNumber-1))
                     .proxy(proxyHost, proxyPort)
                     .followRedirects(true);
 
@@ -115,7 +116,7 @@ public class Network{
             }
             return result;
         };
-        FutureTask<String> future = new FutureTask<>(task);
+        FutureTask<ArrayList<BookData>> future = new FutureTask<ArrayList<BookData>>(task);
         new Thread(future).start();
         return future;
 
@@ -123,7 +124,6 @@ public class Network{
 
     static public FutureTask getDataTask(BookData book) throws IOException, ExecutionException, InterruptedException {
         Callable task = () -> {
-            doc = Jsoup.connect(siteURL+"/b/"+book.id).proxy(proxyHost, proxyPort).get();
             doc = Jsoup.connect(siteURL+"/b/"+book.id).proxy(proxyHost, proxyPort).get();
             Element item = doc.select("h2:contains(Аннотация) + p").first();
             String description;
@@ -143,6 +143,9 @@ public class Network{
             }
             if (doc.select("a:contains(epub)").size() > 0) {
                 downloadTypes.add("epub");
+            }
+            if (doc.select("a:contains(pdf)").size() > 0) {
+                downloadTypes.add("pdf");
             }
             book.downloadTypes = downloadTypes;
 
@@ -168,21 +171,36 @@ public class Network{
         return future;
     }
 
-    static public FutureTask downloadTask(BookData book, Context context, String type) throws IOException, ExecutionException, InterruptedException {
-        Callable task = () -> {
+    static public void downloadTask(BookData book, Context context, String type) throws Exception {
             InetSocketAddress sa = new InetSocketAddress(proxyHost, proxyPort);
             Proxy proxy = new Proxy(Proxy.Type.HTTP, sa);
             HttpURLConnection.setFollowRedirects(true);
-            HttpURLConnection connection = (HttpURLConnection)new URL(siteURL+"/b/"+book.id+"/"+type).openConnection(proxy);
-            while (connection.getResponseCode() == 302) {
+            HttpURLConnection connection;
+            if (type.equals("pdf")) {
+                connection = (HttpURLConnection)new URL(siteURL+"/b/"+book.id+"/download").openConnection(proxy);
+            } else {
+                connection = (HttpURLConnection) new URL(siteURL + "/b/" + book.id + "/" + type).openConnection(proxy);
+            }
+            while (true) {
+                try {
+                    if (!(connection.getResponseCode() == 302)) break;
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
                 connection = (HttpURLConnection)new URL(connection.getHeaderField("Location")).openConnection(proxy);
             }
-            InputStream in = connection.getInputStream();
-            return Storage.write(in, book, type, context);
-        };
-        FutureTask<String> future = new FutureTask<>(task);
-        new Thread(future).start();
-        return future;
+            InputStream in = null;
+            try {
+                in = connection.getInputStream();
+            } catch (IOException e) {
+                throw new Exception("FileError");
+            }
+            boolean res = false;
+            try {
+                res = Storage.write(in, book, type, context);
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
 
     }
 

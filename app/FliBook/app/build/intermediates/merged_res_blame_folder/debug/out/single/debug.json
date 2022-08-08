@@ -1,102 +1,226 @@
 [
     {
-        "merged": "C:\\Users\\Max\\Documents\\GitHub\\FliBook\\app\\FliBook\\app\\build\\intermediates\\merged_res\\debug\\layout_data_activity.xml.flat",
-        "source": "C:\\Users\\Max\\Documents\\GitHub\\FliBook\\app\\FliBook\\app\\src\\main\\res\\layout\\data_activity.xml"
+        "merged": "C:\\Users\\Max\\Documents\\GitHub\\FliBook\\app\\FliBook\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\Max\\Documents\\GitHub\\FliBook\\app\\FliBook\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_foreground.png"
     },
     {
-        "merged": "C:\\Users\\Max\\Documents\\GitHub\\FliBook\\app\\FliBook\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\Max\\Documents\\GitHub\\FliBook\\app\\FliBook\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\Max\\Documents\\GitHub\\FliBook\\app\\FliBook\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Max\\Documents\\GitHub\\FliBook\\app\\FliBook\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Max\\Documents\\GitHub\\FliBook\\app\\FliBook\\app\\build\\intermediates\\merged_res\\debug\\menu_activity_main_drawer.xml.flat",
+        "source": "C:\\Users\\Max\\Documents\\GitHub\\FliBook\\app\\FliBook\\app\\src\\main\\res\\menu\\activity_main_drawer.xml"
     },
     {
         "merged": "C:\\Users\\Max\\Documents\\GitHub\\FliBook\\app\\FliBook\\app\\build\\intermediates\\merged_res\\debug\\drawable_circle_button.xml.flat",
         "source": "C:\\Users\\Max\\Documents\\GitHub\\FliBook\\app\\FliBook\\app\\src\\main\\res\\drawable\\circle_button.xml"
     },
     {
-        "merged": "C:\\Users\\Max\\Documents\\GitHub\\FliBook\\app\\FliBook\\app\\build\\intermediates\\merged_res\\debug\\layout_read_activity.xml.flat",
-        "source": "C:\\Users\\Max\\Documents\\GitHub\\FliBook\\app\\FliBook\\app\\src\\main\\res\\layout\\read_activity.xml"
+        "merged": "C:\\Users\\Max\\Documents\\GitHub\\FliBook\\app\\FliBook\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_library.xml.flat",
+        "source": "C:\\Users\\Max\\Documents\\GitHub\\FliBook\\app\\FliBook\\app\\src\\main\\res\\layout\\fragment_library.xml"
     },
     {
-        "merged": "C:\\Users\\Max\\Documents\\GitHub\\FliBook\\app\\FliBook\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "C:\\Users\\Max\\Documents\\GitHub\\FliBook\\app\\FliBook\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+        "merged": "C:\\Users\\Max\\Documents\\GitHub\\FliBook\\app\\FliBook\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Max\\Documents\\GitHub\\FliBook\\app\\FliBook\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\Max\\Documents\\GitHub\\FliBook\\app\\FliBook\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\Max\\Documents\\GitHub\\FliBook\\app\\FliBook\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Users\\Max\\Documents\\GitHub\\FliBook\\app\\FliBook\\app\\build\\intermediates\\merged_res\\debug\\layout_progress_dialog.xml.flat",
+        "source": "C:\\Users\\Max\\Documents\\GitHub\\FliBook\\app\\FliBook\\app\\src\\main\\res\\layout\\progress_dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\Max\\Documents\\GitHub\\FliBook\\app\\FliBook\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Max\\Documents\\GitHub\\FliBook\\app\\FliBook\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Max\\Documents\\GitHub\\FliBook\\app\\FliBook\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\Max\\Documents\\GitHub\\FliBook\\app\\FliBook\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\Max\\Documents\\GitHub\\FliBook\\app\\FliBook\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_pdf.xml.flat",
+        "source": "C:\\Users\\Max\\Documents\\GitHub\\FliBook\\app\\FliBook\\app\\src\\main\\res\\layout\\activity_pdf.xml"
+    },
+    {
+        "merged": "C:\\Users\\Max\\Documents\\GitHub\\FliBook\\app\\FliBook\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_fromfile.xml.flat",
+        "source": "C:\\Users\\Max\\Documents\\GitHub\\FliBook\\app\\FliBook\\app\\src\\main\\res\\layout\\fragment_fromfile.xml"
+    },
+    {
+        "merged": "C:\\Users\\Max\\Documents\\GitHub\\FliBook\\app\\FliBook\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Max\\Documents\\GitHub\\FliBook\\app\\FliBook\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Max\\Documents\\GitHub\\FliBook\\app\\FliBook\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\Max\\Documents\\GitHub\\FliBook\\app\\FliBook\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\Max\\Documents\\GitHub\\FliBook\\app\\FliBook\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Max\\Documents\\GitHub\\FliBook\\app\\FliBook\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Max\\Documents\\GitHub\\FliBook\\app\\FliBook\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_second2.xml.flat",
+        "source": "C:\\Users\\Max\\Documents\\GitHub\\FliBook\\app\\FliBook\\app\\src\\main\\res\\layout\\fragment_second2.xml"
     },
     {
         "merged": "C:\\Users\\Max\\Documents\\GitHub\\FliBook\\app\\FliBook\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_launcher_background.xml.flat",
         "source": "C:\\Users\\Max\\Documents\\GitHub\\FliBook\\app\\FliBook\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
     },
     {
+        "merged": "C:\\Users\\Max\\Documents\\GitHub\\FliBook\\app\\FliBook\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\Max\\Documents\\GitHub\\FliBook\\app\\FliBook\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_foreground.png"
+    },
+    {
         "merged": "C:\\Users\\Max\\Documents\\GitHub\\FliBook\\app\\FliBook\\app\\build\\intermediates\\merged_res\\debug\\drawable_download_icon.png.flat",
         "source": "C:\\Users\\Max\\Documents\\GitHub\\FliBook\\app\\FliBook\\app\\src\\main\\res\\drawable\\download_icon.png"
     },
     {
-        "merged": "C:\\Users\\Max\\Documents\\GitHub\\FliBook\\app\\FliBook\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_right.png.flat",
-        "source": "C:\\Users\\Max\\Documents\\GitHub\\FliBook\\app\\FliBook\\app\\src\\main\\res\\drawable-v24\\right.png"
+        "merged": "C:\\Users\\Max\\Documents\\GitHub\\FliBook\\app\\FliBook\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_data.xml.flat",
+        "source": "C:\\Users\\Max\\Documents\\GitHub\\FliBook\\app\\FliBook\\app\\src\\main\\res\\layout\\fragment_data.xml"
     },
     {
-        "merged": "C:\\Users\\Max\\Documents\\GitHub\\FliBook\\app\\FliBook\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\Max\\Documents\\GitHub\\FliBook\\app\\FliBook\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\Max\\Documents\\GitHub\\FliBook\\app\\FliBook\\app\\build\\intermediates\\merged_res\\debug\\drawable_add.xml.flat",
+        "source": "C:\\Users\\Max\\Documents\\GitHub\\FliBook\\app\\FliBook\\app\\src\\main\\res\\drawable\\add.xml"
     },
     {
-        "merged": "C:\\Users\\Max\\Documents\\GitHub\\FliBook\\app\\FliBook\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\Max\\Documents\\GitHub\\FliBook\\app\\FliBook\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\Max\\Documents\\GitHub\\FliBook\\app\\FliBook\\app\\build\\intermediates\\merged_res\\debug\\navigation_nav_graph.xml.flat",
+        "source": "C:\\Users\\Max\\Documents\\GitHub\\FliBook\\app\\FliBook\\app\\src\\main\\res\\navigation\\nav_graph.xml"
     },
     {
-        "merged": "C:\\Users\\Max\\Documents\\GitHub\\FliBook\\app\\FliBook\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\Max\\Documents\\GitHub\\FliBook\\app\\FliBook\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Users\\Max\\Documents\\GitHub\\FliBook\\app\\FliBook\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_menu_gallery.xml.flat",
+        "source": "C:\\Users\\Max\\Documents\\GitHub\\FliBook\\app\\FliBook\\app\\src\\main\\res\\drawable\\ic_menu_gallery.xml"
     },
     {
-        "merged": "C:\\Users\\Max\\Documents\\GitHub\\FliBook\\app\\FliBook\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\Max\\Documents\\GitHub\\FliBook\\app\\FliBook\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Users\\Max\\Documents\\GitHub\\FliBook\\app\\FliBook\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_menu_camera.xml.flat",
+        "source": "C:\\Users\\Max\\Documents\\GitHub\\FliBook\\app\\FliBook\\app\\src\\main\\res\\drawable\\ic_menu_camera.xml"
     },
     {
-        "merged": "C:\\Users\\Max\\Documents\\GitHub\\FliBook\\app\\FliBook\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\Max\\Documents\\GitHub\\FliBook\\app\\FliBook\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.webp"
-    },
-    {
-        "merged": "C:\\Users\\Max\\Documents\\GitHub\\FliBook\\app\\FliBook\\app\\build\\intermediates\\merged_res\\debug\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
-        "source": "C:\\Users\\Max\\Documents\\GitHub\\FliBook\\app\\FliBook\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+        "merged": "C:\\Users\\Max\\Documents\\GitHub\\FliBook\\app\\FliBook\\app\\build\\intermediates\\merged_res\\debug\\drawable_side_nav_bar.xml.flat",
+        "source": "C:\\Users\\Max\\Documents\\GitHub\\FliBook\\app\\FliBook\\app\\src\\main\\res\\drawable\\side_nav_bar.xml"
     },
     {
         "merged": "C:\\Users\\Max\\Documents\\GitHub\\FliBook\\app\\FliBook\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
         "source": "C:\\Users\\Max\\Documents\\GitHub\\FliBook\\app\\FliBook\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
-        "merged": "C:\\Users\\Max\\Documents\\GitHub\\FliBook\\app\\FliBook\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\Max\\Documents\\GitHub\\FliBook\\app\\FliBook\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\Max\\Documents\\GitHub\\FliBook\\app\\FliBook\\app\\build\\intermediates\\merged_res\\debug\\menu_main_activity2.xml.flat",
+        "source": "C:\\Users\\Max\\Documents\\GitHub\\FliBook\\app\\FliBook\\app\\src\\main\\res\\menu\\main_activity2.xml"
     },
     {
-        "merged": "C:\\Users\\Max\\Documents\\GitHub\\FliBook\\app\\FliBook\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\Max\\Documents\\GitHub\\FliBook\\app\\FliBook\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\Max\\Documents\\GitHub\\FliBook\\app\\FliBook\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Max\\Documents\\GitHub\\FliBook\\app\\FliBook\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
     },
     {
         "merged": "C:\\Users\\Max\\Documents\\GitHub\\FliBook\\app\\FliBook\\app\\build\\intermediates\\merged_res\\debug\\layout_mylist.xml.flat",
         "source": "C:\\Users\\Max\\Documents\\GitHub\\FliBook\\app\\FliBook\\app\\src\\main\\res\\layout\\mylist.xml"
     },
     {
-        "merged": "C:\\Users\\Max\\Documents\\GitHub\\FliBook\\app\\FliBook\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_search_icon.png.flat",
-        "source": "C:\\Users\\Max\\Documents\\GitHub\\FliBook\\app\\FliBook\\app\\src\\main\\res\\drawable-v24\\search_icon.png"
-    },
-    {
-        "merged": "C:\\Users\\Max\\Documents\\GitHub\\FliBook\\app\\FliBook\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\Max\\Documents\\GitHub\\FliBook\\app\\FliBook\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.webp"
-    },
-    {
-        "merged": "C:\\Users\\Max\\Documents\\GitHub\\FliBook\\app\\FliBook\\app\\build\\intermediates\\merged_res\\debug\\layout_search_activity.xml.flat",
-        "source": "C:\\Users\\Max\\Documents\\GitHub\\FliBook\\app\\FliBook\\app\\src\\main\\res\\layout\\search_activity.xml"
+        "merged": "C:\\Users\\Max\\Documents\\GitHub\\FliBook\\app\\FliBook\\app\\build\\intermediates\\merged_res\\debug\\xml_network_security_config.xml.flat",
+        "source": "C:\\Users\\Max\\Documents\\GitHub\\FliBook\\app\\FliBook\\app\\src\\main\\res\\xml\\network_security_config.xml"
     },
     {
         "merged": "C:\\Users\\Max\\Documents\\GitHub\\FliBook\\app\\FliBook\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_left.png.flat",
         "source": "C:\\Users\\Max\\Documents\\GitHub\\FliBook\\app\\FliBook\\app\\src\\main\\res\\drawable-v24\\left.png"
     },
     {
+        "merged": "C:\\Users\\Max\\Documents\\GitHub\\FliBook\\app\\FliBook\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Max\\Documents\\GitHub\\FliBook\\app\\FliBook\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
         "merged": "C:\\Users\\Max\\Documents\\GitHub\\FliBook\\app\\FliBook\\app\\build\\intermediates\\merged_res\\debug\\layout_mylist2.xml.flat",
         "source": "C:\\Users\\Max\\Documents\\GitHub\\FliBook\\app\\FliBook\\app\\src\\main\\res\\layout\\mylist2.xml"
     },
     {
-        "merged": "C:\\Users\\Max\\Documents\\GitHub\\FliBook\\app\\FliBook\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_main.xml.flat",
-        "source": "C:\\Users\\Max\\Documents\\GitHub\\FliBook\\app\\FliBook\\app\\src\\main\\res\\layout\\activity_main.xml"
+        "merged": "C:\\Users\\Max\\Documents\\GitHub\\FliBook\\app\\FliBook\\app\\build\\intermediates\\merged_res\\debug\\drawable_book.xml.flat",
+        "source": "C:\\Users\\Max\\Documents\\GitHub\\FliBook\\app\\FliBook\\app\\src\\main\\res\\drawable\\book.xml"
+    },
+    {
+        "merged": "C:\\Users\\Max\\Documents\\GitHub\\FliBook\\app\\FliBook\\app\\build\\intermediates\\merged_res\\debug\\layout_app_bar_main.xml.flat",
+        "source": "C:\\Users\\Max\\Documents\\GitHub\\FliBook\\app\\FliBook\\app\\src\\main\\res\\layout\\app_bar_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Max\\Documents\\GitHub\\FliBook\\app\\FliBook\\app\\build\\intermediates\\merged_res\\debug\\layout_nav_header_main.xml.flat",
+        "source": "C:\\Users\\Max\\Documents\\GitHub\\FliBook\\app\\FliBook\\app\\src\\main\\res\\layout\\nav_header_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Max\\Documents\\GitHub\\FliBook\\app\\FliBook\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Max\\Documents\\GitHub\\FliBook\\app\\FliBook\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Max\\Documents\\GitHub\\FliBook\\app\\FliBook\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\Max\\Documents\\GitHub\\FliBook\\app\\FliBook\\app\\src\\main\\res\\drawable-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\Max\\Documents\\GitHub\\FliBook\\app\\FliBook\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\Max\\Documents\\GitHub\\FliBook\\app\\FliBook\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\Max\\Documents\\GitHub\\FliBook\\app\\FliBook\\app\\build\\intermediates\\merged_res\\debug\\drawable_pen.xml.flat",
+        "source": "C:\\Users\\Max\\Documents\\GitHub\\FliBook\\app\\FliBook\\app\\src\\main\\res\\drawable\\pen.xml"
+    },
+    {
+        "merged": "C:\\Users\\Max\\Documents\\GitHub\\FliBook\\app\\FliBook\\app\\build\\intermediates\\merged_res\\debug\\mipmap-ldpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Max\\Documents\\GitHub\\FliBook\\app\\FliBook\\app\\src\\main\\res\\mipmap-ldpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Max\\Documents\\GitHub\\FliBook\\app\\FliBook\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Max\\Documents\\GitHub\\FliBook\\app\\FliBook\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Max\\Documents\\GitHub\\FliBook\\app\\FliBook\\app\\build\\intermediates\\merged_res\\debug\\navigation_mobile_navigation.xml.flat",
+        "source": "C:\\Users\\Max\\Documents\\GitHub\\FliBook\\app\\FliBook\\app\\src\\main\\res\\navigation\\mobile_navigation.xml"
+    },
+    {
+        "merged": "C:\\Users\\Max\\Documents\\GitHub\\FliBook\\app\\FliBook\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_menu_slideshow.xml.flat",
+        "source": "C:\\Users\\Max\\Documents\\GitHub\\FliBook\\app\\FliBook\\app\\src\\main\\res\\drawable\\ic_menu_slideshow.xml"
+    },
+    {
+        "merged": "C:\\Users\\Max\\Documents\\GitHub\\FliBook\\app\\FliBook\\app\\build\\intermediates\\merged_res\\debug\\drawable_download.xml.flat",
+        "source": "C:\\Users\\Max\\Documents\\GitHub\\FliBook\\app\\FliBook\\app\\src\\main\\res\\drawable\\download.xml"
+    },
+    {
+        "merged": "C:\\Users\\Max\\Documents\\GitHub\\FliBook\\app\\FliBook\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_right.png.flat",
+        "source": "C:\\Users\\Max\\Documents\\GitHub\\FliBook\\app\\FliBook\\app\\src\\main\\res\\drawable-v24\\right.png"
+    },
+    {
+        "merged": "C:\\Users\\Max\\Documents\\GitHub\\FliBook\\app\\FliBook\\app\\build\\intermediates\\merged_res\\debug\\layout_content_main.xml.flat",
+        "source": "C:\\Users\\Max\\Documents\\GitHub\\FliBook\\app\\FliBook\\app\\src\\main\\res\\layout\\content_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Max\\Documents\\GitHub\\FliBook\\app\\FliBook\\app\\build\\intermediates\\merged_res\\debug\\navigation_nav_graph2.xml.flat",
+        "source": "C:\\Users\\Max\\Documents\\GitHub\\FliBook\\app\\FliBook\\app\\src\\main\\res\\navigation\\nav_graph2.xml"
+    },
+    {
+        "merged": "C:\\Users\\Max\\Documents\\GitHub\\FliBook\\app\\FliBook\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Max\\Documents\\GitHub\\FliBook\\app\\FliBook\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Max\\Documents\\GitHub\\FliBook\\app\\FliBook\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_main2.xml.flat",
+        "source": "C:\\Users\\Max\\Documents\\GitHub\\FliBook\\app\\FliBook\\app\\src\\main\\res\\layout\\activity_main2.xml"
+    },
+    {
+        "merged": "C:\\Users\\Max\\Documents\\GitHub\\FliBook\\app\\FliBook\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_search.xml.flat",
+        "source": "C:\\Users\\Max\\Documents\\GitHub\\FliBook\\app\\FliBook\\app\\src\\main\\res\\layout\\fragment_search.xml"
+    },
+    {
+        "merged": "C:\\Users\\Max\\Documents\\GitHub\\FliBook\\app\\FliBook\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_search_icon.png.flat",
+        "source": "C:\\Users\\Max\\Documents\\GitHub\\FliBook\\app\\FliBook\\app\\src\\main\\res\\drawable-v24\\search_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\Max\\Documents\\GitHub\\FliBook\\app\\FliBook\\app\\build\\intermediates\\merged_res\\debug\\drawable_delete.xml.flat",
+        "source": "C:\\Users\\Max\\Documents\\GitHub\\FliBook\\app\\FliBook\\app\\src\\main\\res\\drawable\\delete.xml"
+    },
+    {
+        "merged": "C:\\Users\\Max\\Documents\\GitHub\\FliBook\\app\\FliBook\\app\\build\\intermediates\\merged_res\\debug\\drawable_settings.xml.flat",
+        "source": "C:\\Users\\Max\\Documents\\GitHub\\FliBook\\app\\FliBook\\app\\src\\main\\res\\drawable\\settings.xml"
+    },
+    {
+        "merged": "C:\\Users\\Max\\Documents\\GitHub\\FliBook\\app\\FliBook\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_second.xml.flat",
+        "source": "C:\\Users\\Max\\Documents\\GitHub\\FliBook\\app\\FliBook\\app\\src\\main\\res\\layout\\fragment_second.xml"
+    },
+    {
+        "merged": "C:\\Users\\Max\\Documents\\GitHub\\FliBook\\app\\FliBook\\app\\build\\intermediates\\merged_res\\debug\\layout_search_activity.xml.flat",
+        "source": "C:\\Users\\Max\\Documents\\GitHub\\FliBook\\app\\FliBook\\app\\src\\main\\res\\layout\\search_activity.xml"
+    },
+    {
+        "merged": "C:\\Users\\Max\\Documents\\GitHub\\FliBook\\app\\FliBook\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\Max\\Documents\\GitHub\\FliBook\\app\\FliBook\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_foreground.png"
     }
 ]

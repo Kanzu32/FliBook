@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: ./app/libs/fb2epub-0.3.0.jar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/libs/fb2epub-0.3.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/app/libs/fb2epub-0.3.0.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,19 @@
+<lint-module
+    format="1"
+    dir="C:\Users\Max\Documents\GitHub\FliBook\app\FliBook\app"
+    name=":app"
+    type="APP"
+    maven="FliBook:app:"
+    gradle="7.0.3"
+    buildFolder="build"
+    bootClassPath="C:\Users\Max\AppData\Local\Android\Sdk\platforms\android-31\android.jar;C:\Users\Max\AppData\Local\Android\Sdk\build-tools\30.0.2\core-lambda-stubs.jar"
+    javaSourceLevel="1.8"
+    compileTarget="android-31"
+    neverShrinking="true">
+  <lintOptions
+      abortOnError="true"
+      absolutePaths="true"
+      checkReleaseBuilds="true"
+      explainIssues="true"/>
+  <variant name="release"/>
+</lint-module>

@@ -1,0 +1,74 @@
+[
+    {
+        "merged": "C:\\Users\\Max\\Documents\\GitHub\\FliBook\\app\\FliBook\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_first2.xml",
+        "source": "C:\\Users\\Max\\Documents\\GitHub\\FliBook\\app\\FliBook\\app\\src\\main\\res\\layout\\fragment_first2.xml"
+    },
+    {
+        "merged": "C:\\Users\\Max\\Documents\\GitHub\\FliBook\\app\\FliBook\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_fromfile.xml",
+        "source": "C:\\Users\\Max\\Documents\\GitHub\\FliBook\\app\\FliBook\\app\\src\\main\\res\\layout\\fragment_fromfile.xml"
+    },
+    {
+        "merged": "C:\\Users\\Max\\Documents\\GitHub\\FliBook\\app\\FliBook\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_library.xml",
+        "source": "C:\\Users\\Max\\Documents\\GitHub\\FliBook\\app\\FliBook\\app\\src\\main\\res\\layout\\fragment_library.xml"
+    },
+    {
+        "merged": "C:\\Users\\Max\\Documents\\GitHub\\FliBook\\app\\FliBook\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_second2.xml",
+        "source": "C:\\Users\\Max\\Documents\\GitHub\\FliBook\\app\\FliBook\\app\\src\\main\\res\\layout\\fragment_second2.xml"
+    },
+    {
+        "merged": "C:\\Users\\Max\\Documents\\GitHub\\FliBook\\app\\FliBook\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\mylist.xml",
+        "source": "C:\\Users\\Max\\Documents\\GitHub\\FliBook\\app\\FliBook\\app\\src\\main\\res\\layout\\mylist.xml"
+    },
+    {
+        "merged": "C:\\Users\\Max\\Documents\\GitHub\\FliBook\\app\\FliBook\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main2.xml",
+        "source": "C:\\Users\\Max\\Documents\\GitHub\\FliBook\\app\\FliBook\\app\\src\\main\\res\\layout\\activity_main2.xml"
+    },
+    {
+        "merged": "C:\\Users\\Max\\Documents\\GitHub\\FliBook\\app\\FliBook\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_pdf.xml",
+        "source": "C:\\Users\\Max\\Documents\\GitHub\\FliBook\\app\\FliBook\\app\\src\\main\\res\\layout\\activity_pdf.xml"
+    },
+    {
+        "merged": "C:\\Users\\Max\\Documents\\GitHub\\FliBook\\app\\FliBook\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\mylist2.xml",
+        "source": "C:\\Users\\Max\\Documents\\GitHub\\FliBook\\app\\FliBook\\app\\src\\main\\res\\layout\\mylist2.xml"
+    },
+    {
+        "merged": "C:\\Users\\Max\\Documents\\GitHub\\FliBook\\app\\FliBook\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_data.xml",
+        "source": "C:\\Users\\Max\\Documents\\GitHub\\FliBook\\app\\FliBook\\app\\src\\main\\res\\layout\\fragment_data.xml"
+    },
+    {
+        "merged": "C:\\Users\\Max\\Documents\\GitHub\\FliBook\\app\\FliBook\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\app_bar_main.xml",
+        "source": "C:\\Users\\Max\\Documents\\GitHub\\FliBook\\app\\FliBook\\app\\src\\main\\res\\layout\\app_bar_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Max\\Documents\\GitHub\\FliBook\\app\\FliBook\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_first.xml",
+        "source": "C:\\Users\\Max\\Documents\\GitHub\\FliBook\\app\\FliBook\\app\\src\\main\\res\\layout\\fragment_first.xml"
+    },
+    {
+        "merged": "C:\\Users\\Max\\Documents\\GitHub\\FliBook\\app\\FliBook\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_second.xml",
+        "source": "C:\\Users\\Max\\Documents\\GitHub\\FliBook\\app\\FliBook\\app\\src\\main\\res\\layout\\fragment_second.xml"
+    },
+    {
+        "merged": "C:\\Users\\Max\\Documents\\GitHub\\FliBook\\app\\FliBook\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\nav_header_main.xml",
+        "source": "C:\\Users\\Max\\Documents\\GitHub\\FliBook\\app\\FliBook\\app\\src\\main\\res\\layout\\nav_header_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Max\\Documents\\GitHub\\FliBook\\app\\FliBook\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\search_activity.xml",
+        "source": "C:\\Users\\Max\\Documents\\GitHub\\FliBook\\app\\FliBook\\app\\src\\main\\res\\layout\\search_activity.xml"
+    },
+    {
+        "merged": "C:\\Users\\Max\\Documents\\GitHub\\FliBook\\app\\FliBook\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_search.xml",
+        "source": "C:\\Users\\Max\\Documents\\GitHub\\FliBook\\app\\FliBook\\app\\src\\main\\res\\layout\\fragment_search.xml"
+    },
+    {
+        "merged": "C:\\Users\\Max\\Documents\\GitHub\\FliBook\\app\\FliBook\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\progress_dialog.xml",
+        "source": "C:\\Users\\Max\\Documents\\GitHub\\FliBook\\app\\FliBook\\app\\src\\main\\res\\layout\\progress_dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\Max\\Documents\\GitHub\\FliBook\\app\\FliBook\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\content_main.xml",
+        "source": "C:\\Users\\Max\\Documents\\GitHub\\FliBook\\app\\FliBook\\app\\src\\main\\res\\layout\\content_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Max\\Documents\\GitHub\\FliBook\\app\\FliBook\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\data_activity.xml",
+        "source": "C:\\Users\\Max\\Documents\\GitHub\\FliBook\\app\\FliBook\\app\\src\\main\\res\\layout\\data_activity.xml"
+    }
+]

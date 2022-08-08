@@ -10,10 +10,10 @@ import androidx.core.text.TextUtilsCompat;
 import java.util.ArrayList;
 
 public class BookData implements Parcelable {
-    String name, description = "", author, genres;
+    public String name, description = "", author, genres;
     boolean hasCover;
     Bitmap img;
-    int id;
+    public int id;
     ArrayList<String> downloadTypes;
 
     BookData (int id, String name, String author, String genres) {
@@ -28,6 +28,10 @@ public class BookData implements Parcelable {
         this.description = description;
         this.hasCover = hasCover;
         this.img = img;
+    }
+
+    public BookData() {
+
     }
 
     @Override

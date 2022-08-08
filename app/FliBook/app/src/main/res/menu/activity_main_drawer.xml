@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_search"
+            android:icon="@drawable/book"
+            android:title="Библиотека" />
+        <item
+            android:id="@+id/nav_add"
+            android:icon="@drawable/download"
+            android:title="Скачать книгу" />
+        <item
+            android:id="@+id/nav_fromfile"
+            android:icon="@drawable/add"
+            android:title="Добавить книгу" />
+    </group>
+</menu>

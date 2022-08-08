@@ -4,7 +4,7 @@
             "outputFile": "C:\\Users\\Max\\Documents\\GitHub\\FliBook\\app\\FliBook\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-port\\values-port.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Max\\.gradle\\caches\\transforms-3\\f8d734a7d44310d84014d6ed621ec293\\transformed\\appcompat-1.4.1\\res\\values-port\\values-port.xml",
+                    "source": "C:\\Users\\Max\\.gradle\\caches\\transforms-3\\c29d8d0471cc9340a592636e486a9538\\transformed\\appcompat-1.2.0\\res\\values-port\\values-port.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
