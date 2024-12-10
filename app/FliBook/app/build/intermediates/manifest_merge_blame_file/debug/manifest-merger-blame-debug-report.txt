@@ -1,0 +1,163 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.kanzu.flibook"
+4    android:targetSandboxVersion="1"
+5    android:versionCode="1"
+6    android:versionName="1.0" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="27"
+9-->C:\Users\Max\Documents\GitHub\FliBook\app\FliBook\app\src\main\AndroidManifest.xml
+10        android:targetSdkVersion="30" />
+10-->C:\Users\Max\Documents\GitHub\FliBook\app\FliBook\app\src\main\AndroidManifest.xml
+11
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->C:\Users\Max\Documents\GitHub\FliBook\app\FliBook\app\src\main\AndroidManifest.xml:7:5-67
+12-->C:\Users\Max\Documents\GitHub\FliBook\app\FliBook\app\src\main\AndroidManifest.xml:7:22-64
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->C:\Users\Max\Documents\GitHub\FliBook\app\FliBook\app\src\main\AndroidManifest.xml:8:5-79
+13-->C:\Users\Max\Documents\GitHub\FliBook\app\FliBook\app\src\main\AndroidManifest.xml:8:22-76
+14    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+14-->C:\Users\Max\Documents\GitHub\FliBook\app\FliBook\app\src\main\AndroidManifest.xml:9:5-76
+14-->C:\Users\Max\Documents\GitHub\FliBook\app\FliBook\app\src\main\AndroidManifest.xml:9:22-73
+15    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+15-->C:\Users\Max\Documents\GitHub\FliBook\app\FliBook\app\src\main\AndroidManifest.xml:10:5-12:40
+15-->C:\Users\Max\Documents\GitHub\FliBook\app\FliBook\app\src\main\AndroidManifest.xml:11:9-65
+16    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+16-->C:\Users\Max\Documents\GitHub\FliBook\app\FliBook\app\src\main\AndroidManifest.xml:13:5-80
+16-->C:\Users\Max\Documents\GitHub\FliBook\app\FliBook\app\src\main\AndroidManifest.xml:13:22-77
+17    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
+17-->C:\Users\Max\Documents\GitHub\FliBook\app\FliBook\app\src\main\AndroidManifest.xml:14:5-16:40
+17-->C:\Users\Max\Documents\GitHub\FliBook\app\FliBook\app\src\main\AndroidManifest.xml:15:9-66
+18    <uses-permission android:name="android.permission.BLUETOOTH" />
+18-->C:\Users\Max\Documents\GitHub\FliBook\app\FliBook\app\src\main\AndroidManifest.xml:17:5-68
+18-->C:\Users\Max\Documents\GitHub\FliBook\app\FliBook\app\src\main\AndroidManifest.xml:17:22-65
+19
+20    <application
+20-->C:\Users\Max\Documents\GitHub\FliBook\app\FliBook\app\src\main\AndroidManifest.xml:19:5-44:19
+21        android:allowBackup="true"
+21-->C:\Users\Max\Documents\GitHub\FliBook\app\FliBook\app\src\main\AndroidManifest.xml:20:9-35
+22        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+22-->[androidx.core:core:1.5.0] C:\Users\Max\.gradle\caches\transforms-3\d9d7b13a81d393f17a7f0be398099e8d\transformed\core-1.5.0\AndroidManifest.xml:24:18-86
+23        android:debuggable="true"
+24        android:exported="true"
+24-->C:\Users\Max\Documents\GitHub\FliBook\app\FliBook\app\src\main\AndroidManifest.xml:21:9-32
+25        android:extractNativeLibs="false"
+26        android:icon="@mipmap/ic_launcher"
+26-->C:\Users\Max\Documents\GitHub\FliBook\app\FliBook\app\src\main\AndroidManifest.xml:22:9-43
+27        android:label="@string/app_name"
+27-->C:\Users\Max\Documents\GitHub\FliBook\app\FliBook\app\src\main\AndroidManifest.xml:23:9-41
+28        android:networkSecurityConfig="@xml/network_security_config"
+28-->C:\Users\Max\Documents\GitHub\FliBook\app\FliBook\app\src\main\AndroidManifest.xml:24:9-69
+29        android:requestLegacyExternalStorage="true"
+29-->C:\Users\Max\Documents\GitHub\FliBook\app\FliBook\app\src\main\AndroidManifest.xml:25:9-52
+30        android:roundIcon="@mipmap/ic_launcher_round"
+30-->C:\Users\Max\Documents\GitHub\FliBook\app\FliBook\app\src\main\AndroidManifest.xml:26:9-54
+31        android:supportsRtl="true"
+31-->C:\Users\Max\Documents\GitHub\FliBook\app\FliBook\app\src\main\AndroidManifest.xml:27:9-35
+32        android:testOnly="true"
+33        android:theme="@style/Theme.FliBook"
+33-->C:\Users\Max\Documents\GitHub\FliBook\app\FliBook\app\src\main\AndroidManifest.xml:28:9-45
+34        android:usesCleartextTraffic="true" >
+34-->C:\Users\Max\Documents\GitHub\FliBook\app\FliBook\app\src\main\AndroidManifest.xml:29:9-44
+35        <activity
+35-->C:\Users\Max\Documents\GitHub\FliBook\app\FliBook\app\src\main\AndroidManifest.xml:31:9-33:40
+36            android:name="com.kanzu.flibook.PdfActivity"
+36-->C:\Users\Max\Documents\GitHub\FliBook\app\FliBook\app\src\main\AndroidManifest.xml:32:13-40
+37            android:exported="false" />
+37-->C:\Users\Max\Documents\GitHub\FliBook\app\FliBook\app\src\main\AndroidManifest.xml:33:13-37
+38        <activity
+38-->C:\Users\Max\Documents\GitHub\FliBook\app\FliBook\app\src\main\AndroidManifest.xml:34:9-43:20
+39            android:name="com.kanzu.flibook.MainActivity"
+39-->C:\Users\Max\Documents\GitHub\FliBook\app\FliBook\app\src\main\AndroidManifest.xml:35:13-41
+40            android:exported="true"
+40-->C:\Users\Max\Documents\GitHub\FliBook\app\FliBook\app\src\main\AndroidManifest.xml:36:13-36
+41            android:theme="@style/Theme.FliBook.NoActionBar" >
+41-->C:\Users\Max\Documents\GitHub\FliBook\app\FliBook\app\src\main\AndroidManifest.xml:37:13-61
+42            <intent-filter>
+42-->C:\Users\Max\Documents\GitHub\FliBook\app\FliBook\app\src\main\AndroidManifest.xml:38:13-42:29
+43                <action android:name="android.intent.action.MAIN" />
+43-->C:\Users\Max\Documents\GitHub\FliBook\app\FliBook\app\src\main\AndroidManifest.xml:39:17-69
+43-->C:\Users\Max\Documents\GitHub\FliBook\app\FliBook\app\src\main\AndroidManifest.xml:39:25-66
+44
+45                <category android:name="android.intent.category.LAUNCHER" />
+45-->C:\Users\Max\Documents\GitHub\FliBook\app\FliBook\app\src\main\AndroidManifest.xml:41:17-77
+45-->C:\Users\Max\Documents\GitHub\FliBook\app\FliBook\app\src\main\AndroidManifest.xml:41:27-74
+46            </intent-filter>
+47        </activity>
+48
+49        <provider
+49-->[com.github.FolioReader:FolioReader-Android:0.5.4] C:\Users\Max\.gradle\caches\transforms-3\fd7828e4f111e56f6f359bd2793bd70c\transformed\jetified-FolioReader-Android-0.5.4\AndroidManifest.xml:20:9-23:40
+50            android:name="com.folioreader.AppContext"
+50-->[com.github.FolioReader:FolioReader-Android:0.5.4] C:\Users\Max\.gradle\caches\transforms-3\fd7828e4f111e56f6f359bd2793bd70c\transformed\jetified-FolioReader-Android-0.5.4\AndroidManifest.xml:21:13-54
+51            android:authorities="com.kanzu.flibook.provider.appcontext"
+51-->[com.github.FolioReader:FolioReader-Android:0.5.4] C:\Users\Max\.gradle\caches\transforms-3\fd7828e4f111e56f6f359bd2793bd70c\transformed\jetified-FolioReader-Android-0.5.4\AndroidManifest.xml:22:13-71
+52            android:exported="false" />
+52-->[com.github.FolioReader:FolioReader-Android:0.5.4] C:\Users\Max\.gradle\caches\transforms-3\fd7828e4f111e56f6f359bd2793bd70c\transformed\jetified-FolioReader-Android-0.5.4\AndroidManifest.xml:23:13-37
+53
+54        <activity
+54-->[com.github.FolioReader:FolioReader-Android:0.5.4] C:\Users\Max\.gradle\caches\transforms-3\fd7828e4f111e56f6f359bd2793bd70c\transformed\jetified-FolioReader-Android-0.5.4\AndroidManifest.xml:25:9-28:60
+55            android:name="com.folioreader.ui.activity.FolioActivity"
+55-->[com.github.FolioReader:FolioReader-Android:0.5.4] C:\Users\Max\.gradle\caches\transforms-3\fd7828e4f111e56f6f359bd2793bd70c\transformed\jetified-FolioReader-Android-0.5.4\AndroidManifest.xml:26:13-69
+56            android:label="@string/app_name"
+56-->[com.github.FolioReader:FolioReader-Android:0.5.4] C:\Users\Max\.gradle\caches\transforms-3\fd7828e4f111e56f6f359bd2793bd70c\transformed\jetified-FolioReader-Android-0.5.4\AndroidManifest.xml:27:13-45
+57            android:theme="@style/FolioActivityDayTheme" />
+57-->[com.github.FolioReader:FolioReader-Android:0.5.4] C:\Users\Max\.gradle\caches\transforms-3\fd7828e4f111e56f6f359bd2793bd70c\transformed\jetified-FolioReader-Android-0.5.4\AndroidManifest.xml:28:13-57
+58        <activity
+58-->[com.github.FolioReader:FolioReader-Android:0.5.4] C:\Users\Max\.gradle\caches\transforms-3\fd7828e4f111e56f6f359bd2793bd70c\transformed\jetified-FolioReader-Android-0.5.4\AndroidManifest.xml:29:9-31:59
+59            android:name="com.folioreader.ui.activity.ContentHighlightActivity"
+59-->[com.github.FolioReader:FolioReader-Android:0.5.4] C:\Users\Max\.gradle\caches\transforms-3\fd7828e4f111e56f6f359bd2793bd70c\transformed\jetified-FolioReader-Android-0.5.4\AndroidManifest.xml:30:13-80
+60            android:theme="@style/AppTheme.NoActionBar" />
+60-->[com.github.FolioReader:FolioReader-Android:0.5.4] C:\Users\Max\.gradle\caches\transforms-3\fd7828e4f111e56f6f359bd2793bd70c\transformed\jetified-FolioReader-Android-0.5.4\AndroidManifest.xml:31:13-56
+61        <activity
+61-->[com.github.FolioReader:FolioReader-Android:0.5.4] C:\Users\Max\.gradle\caches\transforms-3\fd7828e4f111e56f6f359bd2793bd70c\transformed\jetified-FolioReader-Android-0.5.4\AndroidManifest.xml:32:9-42:20
+62            android:name="com.folioreader.ui.activity.SearchActivity"
+62-->[com.github.FolioReader:FolioReader-Android:0.5.4] C:\Users\Max\.gradle\caches\transforms-3\fd7828e4f111e56f6f359bd2793bd70c\transformed\jetified-FolioReader-Android-0.5.4\AndroidManifest.xml:33:13-70
+63            android:launchMode="singleTop" >
+63-->[com.github.FolioReader:FolioReader-Android:0.5.4] C:\Users\Max\.gradle\caches\transforms-3\fd7828e4f111e56f6f359bd2793bd70c\transformed\jetified-FolioReader-Android-0.5.4\AndroidManifest.xml:34:13-43
+64            <intent-filter>
+64-->[com.github.FolioReader:FolioReader-Android:0.5.4] C:\Users\Max\.gradle\caches\transforms-3\fd7828e4f111e56f6f359bd2793bd70c\transformed\jetified-FolioReader-Android-0.5.4\AndroidManifest.xml:35:13-37:29
+65                <action android:name="android.intent.action.SEARCH" />
+65-->[com.github.FolioReader:FolioReader-Android:0.5.4] C:\Users\Max\.gradle\caches\transforms-3\fd7828e4f111e56f6f359bd2793bd70c\transformed\jetified-FolioReader-Android-0.5.4\AndroidManifest.xml:36:17-71
+65-->[com.github.FolioReader:FolioReader-Android:0.5.4] C:\Users\Max\.gradle\caches\transforms-3\fd7828e4f111e56f6f359bd2793bd70c\transformed\jetified-FolioReader-Android-0.5.4\AndroidManifest.xml:36:25-68
+66            </intent-filter>
+67
+68            <meta-data
+68-->[com.github.FolioReader:FolioReader-Android:0.5.4] C:\Users\Max\.gradle\caches\transforms-3\fd7828e4f111e56f6f359bd2793bd70c\transformed\jetified-FolioReader-Android-0.5.4\AndroidManifest.xml:39:13-41:54
+69                android:name="android.app.searchable"
+69-->[com.github.FolioReader:FolioReader-Android:0.5.4] C:\Users\Max\.gradle\caches\transforms-3\fd7828e4f111e56f6f359bd2793bd70c\transformed\jetified-FolioReader-Android-0.5.4\AndroidManifest.xml:40:17-54
+70                android:resource="@xml/searchable" />
+70-->[com.github.FolioReader:FolioReader-Android:0.5.4] C:\Users\Max\.gradle\caches\transforms-3\fd7828e4f111e56f6f359bd2793bd70c\transformed\jetified-FolioReader-Android-0.5.4\AndroidManifest.xml:41:17-51
+71        </activity>
+72
+73        <provider
+73-->[com.github.codetoart:r2-streamer-kotlin:1.0.4-2] C:\Users\Max\.gradle\caches\transforms-3\880d980774422e17a7c4e4110c147e80\transformed\jetified-r2-streamer-kotlin-1.0.4-2\AndroidManifest.xml:22:9-25:40
+74            android:name="org.readium.r2.streamer.ClientAppContext"
+74-->[com.github.codetoart:r2-streamer-kotlin:1.0.4-2] C:\Users\Max\.gradle\caches\transforms-3\880d980774422e17a7c4e4110c147e80\transformed\jetified-r2-streamer-kotlin-1.0.4-2\AndroidManifest.xml:23:13-68
+75            android:authorities="com.kanzu.flibook.provider.clientappcontext"
+75-->[com.github.codetoart:r2-streamer-kotlin:1.0.4-2] C:\Users\Max\.gradle\caches\transforms-3\880d980774422e17a7c4e4110c147e80\transformed\jetified-r2-streamer-kotlin-1.0.4-2\AndroidManifest.xml:24:13-77
+76            android:exported="false" />
+76-->[com.github.codetoart:r2-streamer-kotlin:1.0.4-2] C:\Users\Max\.gradle\caches\transforms-3\880d980774422e17a7c4e4110c147e80\transformed\jetified-r2-streamer-kotlin-1.0.4-2\AndroidManifest.xml:25:13-37
+77
+78        <activity
+78-->[com.github.hedzr:android-file-chooser:v1.2.0] C:\Users\Max\.gradle\caches\transforms-3\5689d440fc71baeec4e57bdc69d7f8f1\transformed\jetified-android-file-chooser-v1.2.0\AndroidManifest.xml:12:9-15:56
+79            android:name="com.obsez.android.lib.filechooser.permissions.PermissionActivity"
+79-->[com.github.hedzr:android-file-chooser:v1.2.0] C:\Users\Max\.gradle\caches\transforms-3\5689d440fc71baeec4e57bdc69d7f8f1\transformed\jetified-android-file-chooser-v1.2.0\AndroidManifest.xml:13:13-92
+80            android:label=""
+80-->[com.github.hedzr:android-file-chooser:v1.2.0] C:\Users\Max\.gradle\caches\transforms-3\5689d440fc71baeec4e57bdc69d7f8f1\transformed\jetified-android-file-chooser-v1.2.0\AndroidManifest.xml:14:13-29
+81            android:theme="@style/Theme.Transparent" />
+81-->[com.github.hedzr:android-file-chooser:v1.2.0] C:\Users\Max\.gradle\caches\transforms-3\5689d440fc71baeec4e57bdc69d7f8f1\transformed\jetified-android-file-chooser-v1.2.0\AndroidManifest.xml:15:13-53
+82
+83        <provider
+83-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Max\.gradle\caches\transforms-3\4acd77599e2ff28d9de5860a25a27cad\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:25:9-29:43
+84            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+84-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Max\.gradle\caches\transforms-3\4acd77599e2ff28d9de5860a25a27cad\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:26:13-79
+85            android:authorities="com.kanzu.flibook.lifecycle-process"
+85-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Max\.gradle\caches\transforms-3\4acd77599e2ff28d9de5860a25a27cad\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:27:13-69
+86            android:exported="false"
+86-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Max\.gradle\caches\transforms-3\4acd77599e2ff28d9de5860a25a27cad\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:28:13-37
+87            android:multiprocess="true" />
+87-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Max\.gradle\caches\transforms-3\4acd77599e2ff28d9de5860a25a27cad\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:29:13-40
+88    </application>
+89
+90</manifest>

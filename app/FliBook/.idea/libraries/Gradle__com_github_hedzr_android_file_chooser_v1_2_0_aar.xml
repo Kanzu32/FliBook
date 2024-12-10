@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.hedzr:android-file-chooser:v1.2.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/5689d440fc71baeec4e57bdc69d7f8f1/transformed/jetified-android-file-chooser-v1.2.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/5689d440fc71baeec4e57bdc69d7f8f1/transformed/jetified-android-file-chooser-v1.2.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/5689d440fc71baeec4e57bdc69d7f8f1/transformed/jetified-android-file-chooser-v1.2.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.hedzr/android-file-chooser/v1.2.0/5d6e29d95d9c5c54b7c8042ebe370ed4909f4751/android-file-chooser-v1.2.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

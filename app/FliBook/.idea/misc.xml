@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Max/.gradle/caches/transforms-3/7c2d0bc167e13bd36e775da0a921101a/transformed/jetified-FolioReader-Android-0.5.4/res/layout/progress_dialog.xml" value="0.22864583333333333" />
+        <entry key="..\:/Users/Max/.gradle/caches/transforms-3/fd7828e4f111e56f6f359bd2793bd70c/transformed/jetified-FolioReader-Android-0.5.4/res/layout/action_item_horizontal.xml" value="0.35280797101449274" />
+        <entry key="..\:/Users/Max/.gradle/caches/transforms-3/fd7828e4f111e56f6f359bd2793bd70c/transformed/jetified-FolioReader-Android-0.5.4/res/layout/dialog_edit_notes.xml" value="0.35280797101449274" />
+        <entry key="..\:/Users/Max/.gradle/caches/transforms-3/fd7828e4f111e56f6f359bd2793bd70c/transformed/jetified-FolioReader-Android-0.5.4/res/layout/folio_activity.xml" value="0.27395833333333336" />
+        <entry key="..\:/Users/Max/.gradle/caches/transforms-3/fd7828e4f111e56f6f359bd2793bd70c/transformed/jetified-FolioReader-Android-0.5.4/res/layout/folio_page_fragment.xml" value="0.35280797101449274" />
+        <entry key="..\:/Users/Max/.gradle/caches/transforms-3/fd7828e4f111e56f6f359bd2793bd70c/transformed/jetified-FolioReader-Android-0.5.4/res/layout/item_dictionary.xml" value="0.35280797101449274" />
+        <entry key="..\:/Users/Max/.gradle/caches/transforms-3/fd7828e4f111e56f6f359bd2793bd70c/transformed/jetified-FolioReader-Android-0.5.4/res/layout/view_audio_player.xml" value="0.35280797101449274" />
+        <entry key="..\:/Users/Max/.gradle/caches/transforms-3/fd7828e4f111e56f6f359bd2793bd70c/transformed/jetified-FolioReader-Android-0.5.4/res/layout/view_loading.xml" value="0.35280797101449274" />
+        <entry key="..\:/Users/Max/.gradle/caches/transforms-3/fd7828e4f111e56f6f359bd2793bd70c/transformed/jetified-FolioReader-Android-0.5.4/res/layout/view_webview_pager.xml" value="0.35280797101449274" />
+        <entry key="..\:/Users/Max/Documents/GitHub/FliBook/app/FliBook/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.21197916666666666" />
+        <entry key="..\:/Users/Max/Documents/GitHub/FliBook/app/FliBook/app/src/main/res/drawable/add-48px.xml" value="0.3828125" />
+        <entry key="..\:/Users/Max/Documents/GitHub/FliBook/app/FliBook/app/src/main/res/drawable/add.xml" value="0.2388888888888889" />
+        <entry key="..\:/Users/Max/Documents/GitHub/FliBook/app/FliBook/app/src/main/res/drawable/book-48px.xml" value="0.2777777777777778" />
+        <entry key="..\:/Users/Max/Documents/GitHub/FliBook/app/FliBook/app/src/main/res/drawable/circle_button.xml" value="0.3828125" />
+        <entry key="..\:/Users/Max/Documents/GitHub/FliBook/app/FliBook/app/src/main/res/drawable/delete.xml" value="0.2388888888888889" />
+        <entry key="..\:/Users/Max/Documents/GitHub/FliBook/app/FliBook/app/src/main/res/drawable/download.xml" value="0.2388888888888889" />
+        <entry key="..\:/Users/Max/Documents/GitHub/FliBook/app/FliBook/app/src/main/res/drawable/ic_launcher_background.xml" value="0.21197916666666666" />
+        <entry key="..\:/Users/Max/Documents/GitHub/FliBook/app/FliBook/app/src/main/res/drawable/ic_menu_camera.xml" value="0.3055555555555556" />
+        <entry key="..\:/Users/Max/Documents/GitHub/FliBook/app/FliBook/app/src/main/res/drawable/pen.xml" value="0.2388888888888889" />
+        <entry key="..\:/Users/Max/Documents/GitHub/FliBook/app/FliBook/app/src/main/res/drawable/settings.xml" value="0.2388888888888889" />
+        <entry key="..\:/Users/Max/Documents/GitHub/FliBook/app/FliBook/app/src/main/res/drawable/side_nav_bar.xml" value="0.23333333333333334" />
+        <entry key="..\:/Users/Max/Documents/GitHub/FliBook/app/FliBook/app/src/main/res/layout/activity_home.xml" value="0.22864583333333333" />
+        <entry key="..\:/Users/Max/Documents/GitHub/FliBook/app/FliBook/app/src/main/res/layout/activity_main.xml" value="0.2640625" />
+        <entry key="..\:/Users/Max/Documents/GitHub/FliBook/app/FliBook/app/src/main/res/layout/activity_main2.xml" value="0.3428442028985507" />
+        <entry key="..\:/Users/Max/Documents/GitHub/FliBook/app/FliBook/app/src/main/res/layout/activity_pdf.xml" value="0.21145833333333333" />
+        <entry key="..\:/Users/Max/Documents/GitHub/FliBook/app/FliBook/app/src/main/res/layout/activity_pdf_view.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Max/Documents/GitHub/FliBook/app/FliBook/app/src/main/res/layout/app_bar_main.xml" value="0.3428442028985507" />
+        <entry key="..\:/Users/Max/Documents/GitHub/FliBook/app/FliBook/app/src/main/res/layout/content_main.xml" value="0.17567567567567569" />
+        <entry key="..\:/Users/Max/Documents/GitHub/FliBook/app/FliBook/app/src/main/res/layout/content_pdf_view.xml" value="0.21145833333333333" />
+        <entry key="..\:/Users/Max/Documents/GitHub/FliBook/app/FliBook/app/src/main/res/layout/data_activity.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Max/Documents/GitHub/FliBook/app/FliBook/app/src/main/res/layout/folio_activity.xml" value="0.22864583333333333" />
+        <entry key="..\:/Users/Max/Documents/GitHub/FliBook/app/FliBook/app/src/main/res/layout/fragment_data.xml" value="0.28489583333333335" />
+        <entry key="..\:/Users/Max/Documents/GitHub/FliBook/app/FliBook/app/src/main/res/layout/fragment_first.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/Max/Documents/GitHub/FliBook/app/FliBook/app/src/main/res/layout/fragment_first2.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/Max/Documents/GitHub/FliBook/app/FliBook/app/src/main/res/layout/fragment_fromfile.xml" value="0.22" />
+        <entry key="..\:/Users/Max/Documents/GitHub/FliBook/app/FliBook/app/src/main/res/layout/fragment_gallery.xml" value="0.3428442028985507" />
+        <entry key="..\:/Users/Max/Documents/GitHub/FliBook/app/FliBook/app/src/main/res/layout/fragment_home.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Max/Documents/GitHub/FliBook/app/FliBook/app/src/main/res/layout/fragment_library.xml" value="0.25833333333333336" />
+        <entry key="..\:/Users/Max/Documents/GitHub/FliBook/app/FliBook/app/src/main/res/layout/fragment_search.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Max/Documents/GitHub/FliBook/app/FliBook/app/src/main/res/layout/fragment_settings.xml" value="0.25833333333333336" />
+        <entry key="..\:/Users/Max/Documents/GitHub/FliBook/app/FliBook/app/src/main/res/layout/fragment_slideshow.xml" value="0.3428442028985507" />
+        <entry key="..\:/Users/Max/Documents/GitHub/FliBook/app/FliBook/app/src/main/res/layout/menu.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Max/Documents/GitHub/FliBook/app/FliBook/app/src/main/res/layout/mylist.xml" value="0.2578125" />
+        <entry key="..\:/Users/Max/Documents/GitHub/FliBook/app/FliBook/app/src/main/res/layout/mylist2.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Max/Documents/GitHub/FliBook/app/FliBook/app/src/main/res/layout/nav_header_main.xml" value="0.3428442028985507" />
+        <entry key="..\:/Users/Max/Documents/GitHub/FliBook/app/FliBook/app/src/main/res/layout/progress_dialog.xml" value="0.22864583333333333" />
+        <entry key="..\:/Users/Max/Documents/GitHub/FliBook/app/FliBook/app/src/main/res/layout/read_activity.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Max/Documents/GitHub/FliBook/app/FliBook/app/src/main/res/layout/search_activity.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Max/Documents/GitHub/FliBook/app/FliBook/app/src/main/res/menu/activity_main_drawer.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Max/Documents/GitHub/FliBook/app/FliBook/app/src/main/res/menu/main_activity2.xml" value="0.2947916666666667" />
+        <entry key="..\:/Users/Max/Documents/GitHub/FliBook/app/FliBook/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.21197916666666666" />
+        <entry key="..\:/Users/Max/Documents/GitHub/FliBook/app/FliBook/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.21197916666666666" />
+        <entry key="..\:/Users/Max/Documents/GitHub/FliBook/app/FliBook/app/src/main/res/mipmap-hdpi/ic_launcher.xml" value="0.24479166666666666" />
+        <entry key="..\:/Users/Max/Documents/GitHub/FliBook/app/FliBook/app/src/main/res/xml/network_security_config.xml" value="0.26614583333333336" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

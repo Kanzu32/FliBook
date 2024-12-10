@@ -1,0 +1,88 @@
+com/kanzu/flibook/databinding/FragmentLibraryBinding.java
+ com.kanzu.flibook.databinding.FragmentLibraryBinding
+com/kanzu/flibook/ui/search/SearchFragment.java
+ com.kanzu.flibook.ui.search.SearchFragment
+ com.kanzu.flibook.ui.search.SearchFragment$1
+ com.kanzu.flibook.ui.search.SearchFragment$1$1
+ com.kanzu.flibook.ui.search.SearchFragment$2
+ com.kanzu.flibook.ui.search.SearchFragment$3
+ com.kanzu.flibook.ui.search.SearchFragment$4
+com/kanzu/flibook/databinding/FragmentFromfileBinding.java
+ com.kanzu.flibook.databinding.FragmentFromfileBinding
+com/kanzu/flibook/databinding/AppBarMainBinding.java
+ com.kanzu.flibook.databinding.AppBarMainBinding
+com/kanzu/flibook/databinding/FragmentSecond2Binding.java
+ com.kanzu.flibook.databinding.FragmentSecond2Binding
+com/kanzu/flibook/ui/fromfile/FromFileFragment.java
+ com.kanzu.flibook.ui.fromfile.FromFileFragment
+ com.kanzu.flibook.ui.fromfile.FromFileFragment$1
+ com.kanzu.flibook.ui.fromfile.FromFileFragment$1$1
+ com.kanzu.flibook.ui.fromfile.FromFileFragment$1$2
+ com.kanzu.flibook.ui.fromfile.FromFileFragment$2
+ com.kanzu.flibook.ui.fromfile.FromFileFragment$3
+ com.kanzu.flibook.ui.fromfile.FromFileFragment$4
+com/kanzu/flibook/BuildConfig.java
+ com.kanzu.flibook.BuildConfig
+com/kanzu/flibook/databinding/Mylist2Binding.java
+ com.kanzu.flibook.databinding.Mylist2Binding
+com/kanzu/flibook/ui/library/LibraryViewModel.java
+ com.kanzu.flibook.ui.library.LibraryViewModel
+com/kanzu/flibook/ui/library/LibraryFragment.java
+ com.kanzu.flibook.ui.library.LibraryFragment
+ com.kanzu.flibook.ui.library.LibraryFragment$1
+ com.kanzu.flibook.ui.library.LibraryFragment$2
+ com.kanzu.flibook.ui.library.LibraryFragment$2$1
+ com.kanzu.flibook.ui.library.LibraryFragment$2$1$1
+ com.kanzu.flibook.ui.library.LibraryFragment$2$1$2
+ com.kanzu.flibook.ui.library.LibraryFragment$3
+ com.kanzu.flibook.ui.library.LibraryFragment$3$1
+ com.kanzu.flibook.ui.library.LibraryFragment$3$2
+com/kanzu/flibook/MainActivity.java
+ com.kanzu.flibook.MainActivity
+com/kanzu/flibook/databinding/FragmentSecondBinding.java
+ com.kanzu.flibook.databinding.FragmentSecondBinding
+com/kanzu/flibook/Network.java
+ com.kanzu.flibook.Network
+com/kanzu/flibook/databinding/ActivityMain2Binding.java
+ com.kanzu.flibook.databinding.ActivityMain2Binding
+com/kanzu/flibook/databinding/ContentMainBinding.java
+ com.kanzu.flibook.databinding.ContentMainBinding
+com/kanzu/flibook/HighlightData.java
+ com.kanzu.flibook.HighlightData
+com/kanzu/flibook/MyThread.java
+ com.kanzu.flibook.MyThread
+ com.kanzu.flibook.MyThread$1
+ com.kanzu.flibook.MyThread$2
+com/kanzu/flibook/ui/search/SearchViewModel.java
+ com.kanzu.flibook.ui.search.SearchViewModel
+com/kanzu/flibook/databinding/SearchActivityBinding.java
+ com.kanzu.flibook.databinding.SearchActivityBinding
+com/kanzu/flibook/Storage.java
+ com.kanzu.flibook.Storage
+com/kanzu/flibook/DataFragment.java
+ com.kanzu.flibook.DataFragment
+ com.kanzu.flibook.DataFragment$1
+com/kanzu/flibook/ui/fromfile/FromFileViewModel.java
+ com.kanzu.flibook.ui.fromfile.FromFileViewModel
+com/kanzu/flibook/CustomFileListAdapter.java
+ com.kanzu.flibook.CustomFileListAdapter
+com/kanzu/flibook/databinding/ActivityPdfBinding.java
+ com.kanzu.flibook.databinding.ActivityPdfBinding
+com/kanzu/flibook/BookData.java
+ com.kanzu.flibook.BookData
+ com.kanzu.flibook.BookData$1
+com/kanzu/flibook/databinding/MylistBinding.java
+ com.kanzu.flibook.databinding.MylistBinding
+com/kanzu/flibook/databinding/FragmentDataBinding.java
+ com.kanzu.flibook.databinding.FragmentDataBinding
+com/kanzu/flibook/PdfActivity.java
+ com.kanzu.flibook.Bookmark
+ com.kanzu.flibook.PdfActivity
+com/kanzu/flibook/databinding/NavHeaderMainBinding.java
+ com.kanzu.flibook.databinding.NavHeaderMainBinding
+com/kanzu/flibook/databinding/FragmentSearchBinding.java
+ com.kanzu.flibook.databinding.FragmentSearchBinding
+com/kanzu/flibook/databinding/ProgressDialogBinding.java
+ com.kanzu.flibook.databinding.ProgressDialogBinding
+com/kanzu/flibook/CustomListAdapter.java
+ com.kanzu.flibook.CustomListAdapter

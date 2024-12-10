@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.search.SearchFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+
+
+        <EditText
+            android:id="@+id/searchField"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:ems="10"
+            android:inputType="textPersonName"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/searchButton"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageButton
+            android:id="@+id/searchButton"
+            android:layout_width="60dp"
+            android:layout_height="fill_parent"
+            android:backgroundTint="@color/secondaryColor"
+            android:onClick="searchButtonClick"
+            android:scaleType="fitCenter"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/search_icon" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_weight="0"
+        android:background="@color/secondaryColor">
+
+        <ImageButton
+            android:id="@+id/prevPageButton"
+            android:layout_width="65dp"
+            android:layout_height="fill_parent"
+            android:layout_marginEnd="15dp"
+            android:backgroundTint="@color/white"
+            android:cropToPadding="false"
+            android:onClick="prevPageButtonClick"
+            android:scaleType="fitCenter"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/nextPageButton"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/left" />
+
+        <ImageButton
+            android:id="@+id/nextPageButton"
+            android:layout_width="65dp"
+            android:layout_height="fill_parent"
+            android:layout_marginEnd="45dp"
+            android:backgroundTint="@color/white"
+            android:onClick="nextPageButtonClick"
+            android:scaleType="fitCenter"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/right" />
+
+        <TextView
+            android:id="@+id/pageIndicator"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="5dp"
+            android:layout_weight="1"
+            android:gravity="center|start"
+            android:text="/1"
+            android:textAlignment="textStart"
+            android:textSize="24sp"
+            app:layout_constraintStart_toEndOf="@+id/pageNumberField"
+            tools:layout_editor_absoluteY="5dp" />
+
+        <EditText
+            android:id="@+id/pageNumberField"
+            android:layout_width="65dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_weight="1"
+            android:background="@color/black"
+            android:backgroundTint="@color/secondaryColor"
+            android:ems="10"
+            android:inputType="number"
+            android:text="1"
+            android:textAlignment="viewEnd"
+            android:textSize="24sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+    </ListView>
+
+    <TextView
+        android:id="@+id/errorMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|center_horizontal|center_vertical"
+        android:text="Ничего не найдено."
+        android:textSize="16sp" />
+
+
+</LinearLayout>

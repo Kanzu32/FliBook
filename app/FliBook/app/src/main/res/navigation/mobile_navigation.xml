@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_search">
+
+    <fragment
+        android:id="@+id/nav_search"
+        android:name="com.kanzu.flibook.ui.library.LibraryFragment"
+        android:label="Библиотека" />
+
+    <fragment
+        android:id="@+id/nav_add"
+        android:name="com.kanzu.flibook.ui.search.SearchFragment"
+        android:label="Поиск"
+        tools:layout="@layout/fragment_search" >
+        <action
+            android:id="@+id/action_nav_add_to_nav_data"
+            app:destination="@id/nav_data" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_fromfile"
+        android:name="com.kanzu.flibook.ui.fromfile.FromFileFragment"
+        android:label="Добавить книгу"
+        tools:layout="@layout/fragment_fromfile" />
+
+    <fragment
+        android:id="@+id/nav_data"
+        android:name="com.kanzu.flibook.DataFragment"
+        android:label="Книга">
+        <argument
+            android:name="data"
+            app:argType="com.kanzu.flibook.BookData[]" />
+    </fragment>
+</navigation>

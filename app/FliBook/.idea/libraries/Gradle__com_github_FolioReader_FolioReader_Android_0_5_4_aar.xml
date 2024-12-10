@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.FolioReader:FolioReader-Android:0.5.4@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/fd7828e4f111e56f6f359bd2793bd70c/transformed/jetified-FolioReader-Android-0.5.4/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/fd7828e4f111e56f6f359bd2793bd70c/transformed/jetified-FolioReader-Android-0.5.4/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/fd7828e4f111e56f6f359bd2793bd70c/transformed/jetified-FolioReader-Android-0.5.4/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.FolioReader/FolioReader-Android/0.5.4/965152eb50d051a84755410179a6bb2495c7b5a3/FolioReader-Android-0.5.4-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
